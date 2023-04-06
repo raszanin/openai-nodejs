@@ -1,0 +1,29 @@
+{
+  "name": "openai-nodejs",
+  "version": "1.0.0",
+  "description": "openai-nodejs",
+  "main": "index.js",
+  "repository": "https://github.com/raszanin/openai-nodejs.git",
+  "author": "Roberto Zanin <raszanin@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "createimage": "tsx src/create-image.ts",
+    "createcompletion": "tsx src/create-completion.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.3.5",
+    "openai": "^3.2.1"
+  }
+}
